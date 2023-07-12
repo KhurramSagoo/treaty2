@@ -6,12 +6,6 @@ import "./center.css";
 const Center = () => {
   return (
     <>
-
-
-
-
-
-    
       <div className="container-center">
         <div className="item-left">
           <img className="container-image" src={sidephoto} alt="" />
@@ -31,7 +25,7 @@ const Center = () => {
               quos accusantium. Possimus.
             </p>
           </div>
-      
+
           {/* </div> */}
         </div>
       </div>

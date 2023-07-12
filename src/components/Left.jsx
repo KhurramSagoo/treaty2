@@ -44,7 +44,10 @@ export default function Left() {
 
   return (
     <Box sx={{ padding: "20px", display: "flex" }}>
-      <Grid container spacing={2} direction={{ xs: "column", md: "row" }}>
+      <Grid
+        container
+        // spacing={2} direction={{ xs: "column", md: "row" }}
+      >
         <Grid item xs={12} sm={6} md={4}>
           <Item sx={{ ...gridStyle, flex: 1 }}>
             <Typography style={{ color: "skyblue" }} variant="h6">
@@ -71,8 +74,7 @@ export default function Left() {
             </MarginBox>
           </Item>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}
-        >
+        <Grid item xs={12} sm={6} md={4}>
           <Item sx={gridStyle}>
             <TextField
               sx={style}
@@ -105,7 +107,12 @@ export default function Left() {
               sx={msgStyle}
             />
             <Stack direction="row" justifyContent="flex-end">
-              <Button variant="contained">Send Message</Button>
+              <Button
+                variant="contained"
+                style={{ position: "relative", right: "33px" }}
+              >
+                Send Message
+              </Button>
             </Stack>
           </Item>
         </Grid>

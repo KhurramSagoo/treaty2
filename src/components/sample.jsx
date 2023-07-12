@@ -19,8 +19,8 @@ export default function Sample() {
   const gridStyle = {
     height: "100%",
     width: "auto",
-    display: 'flex',
-    flexDirection: 'column',
+    display: "flex",
+    flexDirection: "column",
   };
 
   const boxStyle = {

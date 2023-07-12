@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+ .left-grid{
+    /* flex-wrap: wrap; */
+/* flex: 1; */
+    width: 50%
+ }
+ .container-image{
+    width:50%
+ }
+
+ .right-grid{
+
+    /* width: 95%; */
+ }
+}
+
+/* @media  screen and (min-width:) {
+    
+} */
